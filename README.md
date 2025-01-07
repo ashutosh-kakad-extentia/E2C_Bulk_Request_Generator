@@ -54,5 +54,5 @@
 - **Run the updateRequests.py script**:
      - After hitting the E2C api with this request you will receive the caseRef json in response. 
      - Paste this in its entirety in **"apiResponses.json"** file.
-     - In your terminal, type in **python createRequests.py**.
+     - In your terminal, type in **python updateRequests.py**.
      - After the confirmation message appears on the terminal, check the **"updatedBulkRequests.json"** file where all the generate requests will be stored.
