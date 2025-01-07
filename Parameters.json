@@ -1,0 +1,21 @@
+{
+  "base_template": {
+    "subject": "Test AK 07/01",
+    "fromAddress": "ashutosh.kakad@extentia.com",
+    "originAddress": "",
+    "toAddress": "",
+    "body": "Test body",
+    "fileLinks": [
+      {
+        "fileName": "",
+        "fileLink": ""
+      }
+    ]
+  },
+  "email_groups": [
+    ["mil.test@marken.com", 100]
+  ],
+  "file_links": [
+    "mil.test@marken.com/AAQkAGYzOWExNzBlLWQxMTAtNDdkYi05Yzk0LWQ0OTc4NGZkZGI1NQAQAFSgYgA2yhZMji3gAZPMuH4=/Marken Booking Form (Domestic Booking).pdf"
+  ]
+}
