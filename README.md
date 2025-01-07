@@ -1,9 +1,28 @@
 
-<!-- Please Press ctrl + shift + v to view this file -->
-
 # Python scripts to generate bulk Requests for Create and Update Scenario for Marken Custom Email-to-Case api testing 
 
 <p align="right">-Ashutosh Kakad.</p>
+
+### Files:
+ - **Paramters.json**:    
+ 
+        Contains the request parameters (subject, fromAddr, toAddr, sharePointLinks etc)
+ - **createRequests.py**: 
+ 
+        The python script which will create the bulk requests for Create Scenario 
+ - **bulkRequests.json**: 
+ 
+        After running the above script, the generated requests are stored here
+ - **updateRequests.py**: 
+ 
+        The python script which will create the bulk requests for Update Scenario 
+ - **apiResponse.py**: 
+ 
+        For update scenarios, caseRef is required for each case, those are to be pasted here. 
+ - **updatedBulkRequests.py**: 
+ 
+        After running the above updateRequests.py script, the generated requests are stored her
+
 
 
 ### Steps to create Requests:
@@ -37,24 +56,3 @@
      - Paste this in its entirety in **"apiResponses.json"** file.
      - In your terminal, type in **python createRequests.py**.
      - After the confirmation message appears on the terminal, check the **"updatedBulkRequests.json"** file where all the generate requests will be stored.
-
-
-### Files:
- - **Paramters.json**:    
- 
-        Contains the request parameters (subject, fromAddr, toAddr, sharePointLinks etc)
- - **createRequests.py**: 
- 
-        The python script which will create the bulk requests for Create Scenario 
- - **bulkRequests.json**: 
- 
-        After running the above script, the generated requests are stored here
- - **updateRequests.py**: 
- 
-        The python script which will create the bulk requests for Update Scenario 
- - **apiResponse.py**: 
- 
-        For update scenarios, caseRef is required for each case, those are to be pasted here. 
- - **updatedBulkRequests.py**: 
- 
-        After running the above updateRequests.py script, the generated requests are stored her
