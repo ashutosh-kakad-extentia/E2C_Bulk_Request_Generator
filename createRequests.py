@@ -23,7 +23,6 @@ def generate_email_requests(start, end, base_template, email_groups, file_links)
 
     return email_requests
 
-# Load configuration from external JSON file
 config_file = "Parameters.json"
 config_data = load_config(config_file)
 
